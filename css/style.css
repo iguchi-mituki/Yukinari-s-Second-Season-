@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.clock{
+    margin: 0 auto;
+    background-color: azure;
+}
