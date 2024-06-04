@@ -3,11 +3,20 @@ setInterval(displayTime, 1000);
 
 
 function displayTime() {
-    const now = new Date();
-    const hour = now.getHours();
-    const minute = now.getMinutes();
-    const second = now.getSeconds();
-  
-    const currentTime = `${hour}:${minute}:${second}`;
-    document.querySelector('.clock').textContent = currentTime; 
+  var now = new Date();
+  var hour = now.getHours();
+  var minute = now.getMinutes();
+  var second = now.getSeconds();
+  if(hour<10){
+    hour = "0" + hour;
   }
+  if(minute<10){
+    minute = "0" + minute;
+  }
+  if(second<10){
+    second = "0" + second;
+  }
+
+  var currentTime = `${hour}:${minute}:${second}`;
+  document.querySelector('.clock').textContent = currentTime; 
+}
