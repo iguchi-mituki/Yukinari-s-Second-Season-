@@ -1,8 +1,29 @@
 img{
-    width: 80%;
-    height: 80%;
+    width: 50%;
+    height: 50%;
+}
+body{
+    margin: 0;
+    background-color: #f3f3f3;
+}
+header{
+    margin: 0;
+    padding: 0px;
+    background-color: #bde3e5;
+}
+header h1,header h3{
+    margin: 0% 5%;
 }
 
+footer{
+    margin: 0% 20%;
+}
+footer h3{
+    background-color: #DBB0B0;
+}
+main{
+    margin: 0% 20%;
+}
 main h3{
-    background-color: blanchedalmond;
+    background-color: #DBB0B0;
 }
