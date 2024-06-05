@@ -11,6 +11,5 @@ ul{
 }
 
 .clock{
-    margin: 0 auto;
-    background-color: azure;
+    text-align: center;
 }
