@@ -48,6 +48,7 @@ p {
 .tatemono img {
     width: 700px;
     height: auto;
+    border: 5px solid;
     }
 footer {
     text-align: center;
