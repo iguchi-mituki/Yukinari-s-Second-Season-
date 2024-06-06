@@ -5,3 +5,4 @@ Yukinari's ～Second Season～
 →回数カウント
 さとう：こうらくかん
 いぐち：かさおか
+https://iguchi-mituki.github.io/Yukinari-s-Second-Season-/
