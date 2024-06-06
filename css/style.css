@@ -13,3 +13,28 @@ ul{
 .clock{
     text-align: center;
 }
+
+body{
+    margin: 0;
+    background-color: #f3f3f3;
+}
+header{
+    margin: 0;
+    padding: 0px;
+    background-color: #bde3e5;
+}
+
+
+footer{
+    margin: 0% 20%;
+}
+
+main{
+    margin: 0% 20%;
+}
+main h3{
+    background-color: #DBB0B0;
+}
+footer h3{
+    background-color: #DBB0B0;
+}
