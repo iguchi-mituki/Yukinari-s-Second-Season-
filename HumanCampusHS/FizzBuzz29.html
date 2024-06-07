@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        #counter {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        button {
+            font-size: 1em;
+            padding: 10px 20px;
+            margin: 5px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>FizzBuzz</h1>
+    <div id="counter">0</div>
+    <button id="incrementButton">進める</button>
+    <button id="resetButton">リセット</button>
+    <div id="result"></div>
+
+    <script>
+        // JavaScriptコードをここに記述
+        let counter = 0;
+
+        document.getElementById('incrementButton').addEventListener('click', function() {
+            counter++;
+            updateDisplay();
+        });
+
+        document.getElementById('resetButton').addEventListener('click', function() {
+            counter = 0;
+            updateDisplay();
+        });
+
+        function updateDisplay() {
+            document.getElementById('counter').textContent = counter;
+
+            let message = '';
+            if (counter % 3 === 0 && counter % 5 === 0) {
+                message = 'FizzBuzz';
+            } else if (counter % 3 === 0) {
+                message = 'Fizz';
+            } else if (counter % 5 === 0) {
+                message = 'Buzz';
+            } else {
+                message = counter;
+            }
+
+            document.getElementById('result').textContent = message;
+        }
+    </script>
+</body>
+</html>
